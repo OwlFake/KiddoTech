@@ -1,0 +1,122 @@
+@font-face {
+    font-family: "Fredoka-Bold";
+    src: url(Assets/fonts/Fredoka/static/Fredoka-Bold.ttf);
+}
+@font-face {
+    font-family: "Fredoka";
+    src: url(Assets/fonts/Fredoka/static/Fredoka-Regular.ttf);
+}
+body {
+    background-image: url(Assets/BG.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    background-position:center center;
+    margin: 0px;
+}
+.header{
+    background-image: url(Assets/Header.png);
+    margin: 0px;
+    background-position: 0px -100px;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: auto;
+    width: 100%;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    width: 200px;
+    height: 100px;
+    margin-left: 20px;
+}
+.nav{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav button{
+    height: 50px;
+    width: 130px;
+    color: #2b3289;
+    box-shadow: 4px 4px 4px #00000050;
+    font-family: "Fredoka";
+    font-size: 25px;
+    border-radius: 100px;
+}
+.active{
+    background-color: #ffffff;
+    border: 2px solid #2b3289;
+    stroke-width: 2px;
+}
+.inactive{
+    background-color: #ededed;
+    border-width: 0px;
+    outline: none;
+}
+.headercontent{
+    display: flex;
+    width: 100%;
+    height: 800px;
+    align-items: top;
+    justify-content: space-evenly;
+    height: auto;
+}
+.headercontent img{
+    width: 40%;
+    max-width: 741px;
+    height: auto;
+}
+.headername{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    max-width: 741px;
+    gap: 50px;
+}
+.headerbutton{
+    display: flex;
+    justify-content: space-around;
+}
+.blue{
+    width: 40%;
+    height: 50px;
+    background-color: #004aad;
+    border: none;
+    border-radius: 100px;
+}
+.yellow{
+    width: 40%;
+    height: 50px;
+    background-color: #ffcf26;;
+    border: none;
+    border-radius: 100px;
+}
+.name{
+    max-width: 741px;
+    height: auto;
+    max-height: 242px;
+    padding: 20px;
+    background-color: #D9D9D9;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-overflow: ellipsis;
+}
+
+.title{
+    margin: 0px;
+    font-family: "Fredoka-Bold";
+    font-size: 60px;
+}
+
+.subtitle{
+    margin: 0px;
+    font-family: "Fredoka";
+    font-size: 40px;
+}
